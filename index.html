@@ -76,6 +76,7 @@
 
         verse = verse.replace(" ", "");
         verse = verse.toLowerCase();
+        let url = verse + '.txt';
 
         fetch(url).then(function(response){
           response.text().then(function(text){
